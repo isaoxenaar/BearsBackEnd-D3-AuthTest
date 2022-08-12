@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "qfcQrl7w12RNpGVzgir1jtiwg1LjA6MBqFn42P39xYI=",
+  "Source": "SignalRWebpack",
+  "BasePath": "_content/SignalRWebpack",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalRWebpack/wwwroot",
+      "Source": "SignalRWebpack",
+      "ContentRoot": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/css/main.e2858bd42eccbf24fcd8.css",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "css/main.e2858bd42eccbf24fcd8.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/main.e2858bd42eccbf24fcd8.css"
+    },
+    {
+      "Identity": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/index.html",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/main.e2858bd42eccbf24fcd8.js",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/isaoxenaar/Desktop/Salt/PGP/HackerWeek/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "main.e2858bd42eccbf24fcd8.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/main.e2858bd42eccbf24fcd8.js"
+    }
+  ]
+}
