@@ -54,6 +54,7 @@ public class BearController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Bear>> PostBear(Bear bear)
     {
+        bear.Date = DateTime.Now;
         if (!ModelState.IsValid) 
         {
             return BadRequest();
