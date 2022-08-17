@@ -57,10 +57,14 @@ public class AuthController : ControllerBase
 
         CookieOptions cookieOptions = new CookieOptions
         {
-            HttpOnly = true
+            HttpOnly = true,
+            Expires = DateTime.UtcNow.AddDays(7),     
+            IsEssential=true,
+            SameSite=SameSiteMode.None,
+            Secure=true, 
         };
         
-        Response.Cookies.Append("jwt", jwt);
+        Response.Cookies.Append("jwt", jwt, cookieOptions);
         
         return Ok();
     }

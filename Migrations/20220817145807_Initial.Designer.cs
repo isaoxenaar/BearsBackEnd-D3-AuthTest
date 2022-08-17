@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace SignalRWebpack.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220810120757_DeleteObserver")]
-    partial class DeleteObserver
+    [Migration("20220817145807_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

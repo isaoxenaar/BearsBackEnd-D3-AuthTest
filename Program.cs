@@ -27,17 +27,18 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseCors(builder => builder
-                .AllowAnyHeader()
-                .AllowAnyMethod()
-                .SetIsOriginAllowed(host => true)
-                .AllowCredentials()
-            );
 }
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors(x => x.SetIsOriginAllowed(host => true).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
+
+app.UseCors(options => options
+    .SetIsOriginAllowed(host => true)    
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowCredentials()
+);
+
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
